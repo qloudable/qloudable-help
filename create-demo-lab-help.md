@@ -85,13 +85,17 @@ This is how long the demo lab will stay active, in minutes. Note the approximate
 
 ### Soft Lab Deployment Time
 
-This is the length of time it will take for the demo lab to deploy, in minutes, depending on when your template finishes deploying in the cloud. **Soft deployment** is when the lab begins as soon as the template completes its deployment process, which can sometimes occur quicker than expected. We recommend using this option for your demo lab if it only relies on the main template to deploy all necessary components, and there are no additional scripts or processes that need to run for a period of time after the main template is ready.
+This is the length of time it will take for the demo lab to deploy, in minutes, depending on when your template finishes deploying in the cloud. 
+
+**Soft deployment** is when the lab begins as soon as the template completes its deployment process, which can sometimes occur quicker than expected. We recommend using this option for your demo lab if it only relies on the main template to deploy all necessary components, and there are no additional scripts or processes that need to run for a period of time after the main template is ready.
 
 Note the approximate length (in minutes) that it would take for the demo lab template to deploy, and enter the number here. This lets the customer know how much lead time will be needed before they can try the demo lab.
 
 ### Hard Lab Deployment Time
 
-This is the length of time it will take for the demo lab to deploy, in minutes, independent of when your template finishes deploying in the cloud. **Hard deployment** is when the lab begins once a specified period of time has passed, regardless of when the template completes its deployment process. We recommend using this option for your demo lab if it relies on additional scripts and/or processes to run after the main templates completes in order to properly deploy all necessary components, as sometimes the main template is ready before all of the other scripts have finished their tasks.
+This is the length of time it will take for the demo lab to deploy, in minutes, independent of when your template finishes deploying in the cloud. 
+
+**Hard deployment** is when the lab begins once a specified period of time has passed, regardless of when the template completes its deployment process. We recommend using this option for your demo lab if it relies on additional scripts and/or processes to run after the main templates completes in order to properly deploy all necessary components, as sometimes the main template is ready before all of the other scripts have finished their tasks.
 
 Note the approximate length (in minutes) that it would take for the demo lab's template and additional scripts to deploy. This lets the customer know how much lead time will be needed before they can try the demo lab.
 
@@ -101,9 +105,9 @@ Note the number of demo labs that can be active at the same time.
 
 ![concurrency limit](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-ad_demo-lab-concurrency-limit.gif)
 
-### Demo Labs per User Limit
+### Demo Labs Per User Limit
 
-Note the number of demo labs each unique user is allowed to deploy.
+Enter the number of demo labs each unique user is allowed to deploy. Any attempts to deploy afer this number will be restricted
 
 ![user limit](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-ad_demo-lab-user-limit.gif)
 
@@ -145,12 +149,12 @@ Click the **Link Cloud Account** tab to continue.
 
 ## Link Cloud Account
 
-### Link New Account
-
 This section is where you will link your existing cloud account to the demo lab. You will see tiles representing all of your registered cloud services accounts. Click on the one that you want to use to host the demo lab deployments. A green check mark will appear next to the account you have selected.
 
 If you do not already have a cloud account set up, you can get started by using the link below:
 [Get Started on Oracle Cloud Infrastructure (OCI)](https://cloud.oracle.com/home)
+
+### Link New Account
 
 If you need to add a new registered account, click the tile labeled **Link New Account**. This will open the fields necessary to link a new cloud account.
 
@@ -176,25 +180,25 @@ Enter the tenant OCID of the cloud account. For help understanding what this ID 
 
 ### User OCID
 
-Enter the user OCID of the cloud account.
+Enter the user OCID of the cloud account. For help understanding what this ID is and how to retrieve it, please this [Required Keys and OCIDs](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) help article on  Oracle's website.
 
 ![user ocid](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_user-ocid.gif)
 
 ### Compartment OCID
 
-Enter the compartment OCID of the cloud account.
+Enter the compartment OCID of the cloud account. For help understanding what this ID is and how to retrieve it, please this [Required Keys and OCIDs](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) help article on  Oracle's website.
 
 ![compartment ocid](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_compartment-ocid.gif)
 
 ### Fingerprint
 
-Enter the cloud account "fingerprint" here.
+Enter the cloud account "fingerprint" here. For help understanding what this value is and how to retrieve it, please this [Required Keys and OCIDs](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) help article on  Oracle's website.
 
 ![fingerprint](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_fingerprint.gif)
 
 ### Private Key Path
 
-Enter the file path that leads to your account's private key here.
+Enter the file path that leads to your account's private key here. For help understanding what this key is and how to retrieve it, please this [Required Keys and OCIDs](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) help article on  Oracle's website.
 
 ![private key](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_private-key.gif)
 
@@ -202,15 +206,17 @@ When you are done, click **Save** to add this cloud account to your list of avai
 
 ## Project Details
 
+In this section, you can select a project to manage this demo lab with.
+
+**Note:** Projects help manage and maintain demo labs, which are deployed and built using [Terraform](https://www.terraform.io/intro/index.html) templates. To learn more about what Terraform templates are and how they work, please [visit this web page](https://www.terraform.io/intro/index.html). For examples of Terraform templates designed for demo labs, please contact a Qloudable support rep.
+
 ### Select Existing Project
 
-In this section, you can select a project to manage this demo lab with. If you have already created a project that you want to use to manage this demo lab, you can select it from the **Select an existing project** dropdown near the top of the section.
+If you have already created a project that you want to use to manage this demo lab, you can select it from the **Select an existing project** dropdown near the top of the section.
 
 ![select project](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-pd_select-project.gif)
 
 Otherwise, fill out the fields below to create a new project.
-
-**Note:** Projects help manage and maintain demo labs, which are deployed and built using [Terraform](https://www.terraform.io/intro/index.html) templates. To learn more about what Terraform templates are and how they work, please [visit this web page](https://www.terraform.io/intro/index.html). For examples of Terraform templates designed for demo labs, please contact a Qloudable support rep.
 
 ### Project Name
 
@@ -266,11 +272,13 @@ Clicking this option creates the **Upload Zip File** button, which prompts you t
 
 When you are done, click the **Sharing Settings** tab to continue. 
 
-## Sharing Settings
+## Sharing & Permissions
+
+In this section, you can configure the user permissions and access levels for your demo lab. For example, you can allow unlimited deployments for certain users by adding them to a "Green List," and/or block certain users from deploying the demo lab by adding them to a "Red List".
 
 ### Everyone
 
-Check this option if you want anyone to be able to view or share this demo lab via social media or link sharing.
+Check this option if you want anyone to be able to view and deploy this demo lab via social media or link sharing.
 
 ![everyone share](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-sharing_everyone.gif)
 
