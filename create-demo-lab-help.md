@@ -6,17 +6,17 @@ For further assistance, send an email to support@qloudable.com.
 
 ## Basic Details
 
-On this page, you will provide the basic information about your demo lab.
+In this section, you will provide the basic information about your demo lab. For example, you can give the lab a title, add logos and screenshots, and upload a user manual file.
 
-### Name of the Demo Lab
+### Demo Lab Title
 
-In this field, give your demo lab a unique name. This will be the name that customers see when they are browsing demo labs, so make sure it is a name that aligns with your product name appropriately, stands out, and demonstrates what your demo lab does.
+In this field, give your demo lab a unique title. This will be the title that customers see when they are browsing demo labs, so make sure it is a title that aligns with your product name appropriately, stands out, and demonstrates what your demo lab does.
 
 ![demo lab name gif](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-name.gif)
 
-### Name of the Publisher
+### Publisher Name
 
-Put your company or organization's name here so customers know who made the demo lab they're about to try.
+Enter your official company or organization's name here so customers know who made this demo lab.
 
 ![publisher name gif](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-publisher-name.gif)
 
@@ -72,17 +72,28 @@ When you are done, click on the **Advanced Details** tab to continue.
 
 ## Advanced Details
 
+In this section, you will add and configure advanced detials for your demo lab. The settings here can affect how your demo lab deploys,
+and what your users will experience, so keep that in mind.
+
 ### Demo Lab Duration
 
-Note the approximate length (in minutes) that it would take a first-timer to complete the demo lab. This lets the customer know how much of a commitment they have to make to try out your solution.
+This is how long the demo lab will stay active, in minutes. Note the approximate length (in minutes) that it would take a first-timer to complete the demo lab, and enter that number here. This lets the customer know how much of a commitment they have to make to try out your solution.
+
+**Tip:** 60 minutes is generally a good place to start and usually a safe bet, if you are unsure.
 
 ![demo lab duration](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-ad_demo-lab-duration.gif)
 
-### Demo Lab Deploy Time
+### Soft Lab Deployment Time
 
-Note the approximate length (in minutes) that it would take for the demo lab to deploy. This lets the customer know how much lead time will be needed before they can try the demo lab.
+This is the length of time it will take for the demo lab to deploy, in minutes, depending on when your template finishes deploying in the cloud. **Soft deployment** is when the lab begins as soon as the template completes its deployment process, which can sometimes occur quicker than expected. We recommend using this option for your demo lab if it only relies on the main template to deploy all necessary components, and there are no additional scripts or processes that need to run for a period of time after the main template is ready.
 
-![deployment time](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-ad_demo-lab-deployment-time.gif)
+Note the approximate length (in minutes) that it would take for the demo lab template to deploy, and enter the number here. This lets the customer know how much lead time will be needed before they can try the demo lab.
+
+### Hard Lab Deployment Time
+
+This is the length of time it will take for the demo lab to deploy, in minutes, independent of when your template finishes deploying in the cloud. **Hard deployment** is when the lab begins once a specified period of time has passed, regardless of when the template completes its deployment process. We recommend using this option for your demo lab if it relies on additional scripts and/or processes to run after the main templates completes in order to properly deploy all necessary components, as sometimes the main template is ready before all of the other scripts have finished their tasks.
+
+Note the approximate length (in minutes) that it would take for the demo lab's template and additional scripts to deploy. This lets the customer know how much lead time will be needed before they can try the demo lab.
 
 ### Concurrency Limit
 
@@ -100,24 +111,33 @@ Note the number of demo labs each unique user is allowed to deploy.
 
 Enter the message that will appear when a user's demo lab deployment fails for whatever reason. This message will be viewed by the customer.
 
+**Tip:** A good default failure message is: "Sorry, your demo lab deployment has failed. Please try again later or contact us for support."
+
 ![failure message](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-ad_failure-message.gif)
 
 ### Concurrency Limit Message
 
 Enter the message that will appear when a user has reached their concurrency limit. This message will be viewed by the customer.
 
+**Tip:** A good default concurrency limit message is: "Sorry, there are too many demo labs active right now. Please wait a bit and try again later. Thanks for your interest!"
+
 ![concurrency message](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-ad_concurrency-message.gif)
 
-### User Demo Lab Limit Message
+### Demo Lab Per User Limit Message
 
 Enter the message that will appear when a user reaches their limit of total demo labs deployments. This message will be viewed by the customer.
 
+**Tip:** A good default demo lab per user limit message is: "Sorry, you have reached the maximum number of demo lab deployments allowed. Please contact us for more information."
+
 ![user limit message](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-ad_user-limit-message.gif)
 
-### Outputs
+### Demo Lab Access Details & Outputs
 
-These fields can customize and control how users view the demo lab output parameters. List the 
-title of the output, followed by the output parameter value (e.g. This is the password: {password}).
+In this text box, you can add and customize the demo lab access details and template output parameters that are displayed to the user once the demo lab is ready. You can use HTML inline formatting to customize your text (**e.g.** <b>**bold text**</b> and line breaks <br>). 
+
+To dynamically populate this field with the output parameters from the main demo lab template, type the value of the output surrounded by double curly brackets (**e.g.** Here is the password: **{{LabPassword}}** ). This will automatically add the *LabPassword* output parameter from the template to your demo lab access details. 
+
+**Tip:** Make sure you type the output values correctly, and with proper casing.
 
 ![outputs](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-ad_outputs.gif)
 
@@ -127,9 +147,12 @@ Click the **Link Cloud Account** tab to continue.
 
 ### Link New Account
 
-You will see tiles representing all of your registered cloud services accounts. Click on the one that you want to use to host the demo lab deployments. A green check mark will appear next to the account you have selected.
+This section is where you will link your existing cloud account to the demo lab. You will see tiles representing all of your registered cloud services accounts. Click on the one that you want to use to host the demo lab deployments. A green check mark will appear next to the account you have selected.
 
-If you don't have a registered account or wish to add a new one, click the tile labeled **Link New Account**. This will open the fields necessary to link a new cloud account.
+If you do not already have a cloud account set up, you can get started by using the link below:
+[Get Started on Oracle Cloud Infrastructure (OCI)](https://cloud.oracle.com/home)
+
+If you need to add a new registered account, click the tile labeled **Link New Account**. This will open the fields necessary to link a new cloud account.
 
 ![link new account](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_link-new-account.gif)
 
@@ -147,7 +170,7 @@ Give your account a description to help keep track of which cloud account it is 
 
 ### Tenancy OCID
 
-Enter the tenant OCID of the cloud account.
+Enter the tenant OCID of the cloud account. For help understanding what this ID is and how to retrieve it, please this [Required Keys and OCIDs](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) help article on  Oracle's website.
 
 ![tenancy ocid](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_tenancy-ocid.gif)
 
@@ -181,11 +204,13 @@ When you are done, click **Save** to add this cloud account to your list of avai
 
 ### Select Existing Project
 
-If you have already created a project that you want to use to manage this demo lab, you can select it from the **Select an existing project** dropdown near the top of the section.
+In this section, you can select a project to manage this demo lab with. If you have already created a project that you want to use to manage this demo lab, you can select it from the **Select an existing project** dropdown near the top of the section.
 
 ![select project](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-pd_select-project.gif)
 
 Otherwise, fill out the fields below to create a new project.
+
+**Note:** Projects help manage and maintain demo labs, which are deployed and built using [Terraform](https://www.terraform.io/intro/index.html) templates. To learn more about what Terraform templates are and how they work, please [visit this web page](https://www.terraform.io/intro/index.html). For examples of Terraform templates designed for demo labs, please contact a Qloudable support rep.
 
 ### Project Name
 
