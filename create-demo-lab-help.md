@@ -1,6 +1,6 @@
 # Create Demo Lab Help Text
 
-You can read the instructions and tips here to help you create your demo lab. At any time in the process, you can click **Save As Draft** in the bottom-left corner of the window to save your progress and come back to it later. 
+These instructions and tips are here to help you create your demo lab. At any time in the process, you can click **Save As Draft** in the bottom-left corner of the window to save your progress and come back to it later. 
 
 For further assistance, send an email to support@qloudable.com.
 
@@ -58,7 +58,7 @@ Here you can upload a PDF file or provide a web link to the user manual that wil
 
 ### Supporting Documents
 
-Here you can upload or provide a link to any other supporting documents to go along with your demo lab, including white papers, data sheets, or any other document.
+Here you can upload or provide a link to any other supporting documents to go along with your demo lab, including white papers, data sheets, or any other documents.
 
 ![supporting documents gif](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-supporting-docs.gif)
 
@@ -72,8 +72,7 @@ When you are done, click on the **Advanced Details** tab to continue.
 
 ## Advanced Details
 
-In this section, you will add and configure advanced detials for your demo lab. The settings here can affect how your demo lab deploys,
-and what your users will experience, so keep that in mind.
+In this section, you will add and configure advanced details about your demo lab. Keep in mind that the settings here can affect how your demo lab deploys and what your users will experience.
 
 ### Demo Lab Duration
 
@@ -95,7 +94,7 @@ Note the approximate length (in minutes) that it would take for the demo lab tem
 
 This is the length of time it will take for the demo lab to deploy, in minutes, independent of when your template finishes deploying in the cloud. 
 
-**Hard deployment** is when the lab begins once a specified period of time has passed, regardless of when the template completes its deployment process. We recommend using this option for your demo lab if it relies on additional scripts and/or processes to run after the main templates completes in order to properly deploy all necessary components, as sometimes the main template is ready before all of the other scripts have finished their tasks.
+**Hard deployment** is when the lab begins once a specified period of time has passed, regardless of when the template completes its deployment process. We recommend using this option for your demo lab if it relies on additional scripts and/or processes to run after the main templates completes in order to properly deploy all necessary components. This is because sometimes the main template is ready before all of the other scripts have finished their tasks.
 
 Note the approximate length (in minutes) that it would take for the demo lab's template and additional scripts to deploy. This lets the customer know how much lead time will be needed before they can try the demo lab.
 
@@ -107,7 +106,7 @@ Note the number of demo labs that can be active at the same time.
 
 ### Demo Labs Per User Limit
 
-Enter the number of demo labs each unique user is allowed to deploy. Any attempts to deploy afer this number will be restricted
+Enter the number of demo labs each unique user is allowed to deploy. Any attempts to deploy afer this number will be restricted.
 
 ![user limit](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-ad_demo-lab-user-limit.gif)
 
@@ -174,31 +173,31 @@ Give your account a description to help keep track of which cloud account it is 
 
 ### Tenancy OCID
 
-Enter the tenant OCID of the cloud account. For help understanding what this ID is and how to retrieve it, please this [Required Keys and OCIDs](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) help article on  Oracle's website.
+Enter the tenant OCID of the cloud account. For help understanding what this ID is and how to retrieve it, read [this help article](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) on Oracle's website.
 
 ![tenancy ocid](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_tenancy-ocid.gif)
 
 ### User OCID
 
-Enter the user OCID of the cloud account. For help understanding what this ID is and how to retrieve it, please this [Required Keys and OCIDs](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) help article on  Oracle's website.
+Enter the user OCID of the cloud account. For help understanding what this ID is and how to retrieve it, read [this help article](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) on Oracle's website.
 
 ![user ocid](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_user-ocid.gif)
 
 ### Compartment OCID
 
-Enter the compartment OCID of the cloud account. For help understanding what this ID is and how to retrieve it, please this [Required Keys and OCIDs](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) help article on  Oracle's website.
+Enter the compartment OCID of the cloud account. For help understanding what this ID is and how to retrieve it, read [this help article](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) on Oracle's website.
 
 ![compartment ocid](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_compartment-ocid.gif)
 
 ### Fingerprint
 
-Enter the cloud account "fingerprint" here. For help understanding what this value is and how to retrieve it, please this [Required Keys and OCIDs](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) help article on  Oracle's website.
+Enter the cloud account "fingerprint" here. For help understanding what this value is and how to retrieve it, read [this help article](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) on Oracle's website.
 
 ![fingerprint](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_fingerprint.gif)
 
 ### Private Key Path
 
-Enter the file path that leads to your account's private key here. For help understanding what this key is and how to retrieve it, please this [Required Keys and OCIDs](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) help article on  Oracle's website.
+Enter the file path that leads to your account's private key here. For help understanding what this key is and how to retrieve it, read [this help article](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/apisigningkey.htm#How) on Oracle's website.
 
 ![private key](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-lca_private-key.gif)
 
@@ -212,7 +211,7 @@ In this section, you can select a project to manage this demo lab with.
 
 ### Select Existing Project
 
-If you have already created a project that you want to use to manage this demo lab, you can select it from the **Select an existing project** dropdown near the top of the section.
+If you have already created a project that you want to use to manage this demo lab, you can select it from the **Select an existing project** dropdown near the top of this section.
 
 ![select project](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-pd_select-project.gif)
 
@@ -284,7 +283,7 @@ Check this option if you want anyone to be able to view and deploy this demo lab
 
 ### Collaborators
 
-Alternatively, you can set specific collaborators that can see the demo lab, organized by User, Team, Organization, or domain name (email address). Enter the individual emaill address, or the email domain, and select **Add** to add users.
+Alternatively, you can set specific collaborators that can see the demo lab, organized by User, Team, Organization, or domain name (email address). Enter the individual email address, or the email domain, and select **Add** to add users.
 
 ![collaborators share](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-sharing_collaborators.gif)
 
