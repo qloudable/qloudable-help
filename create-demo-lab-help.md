@@ -22,7 +22,7 @@ Enter your official company or organization's name here so customers know who ma
 
 ### Demo Lab Description
 
-Here you can put a quick description of what you demo lab is and what it does. This will help customers decide if they want to try your demo lab, so be descriptive.
+Here you can put a quick description of what your demo lab is and what it does. This will help customers decide if they want to try your demo lab, so be descriptive.
 
 ![lab description gif](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-description.gif)
 
