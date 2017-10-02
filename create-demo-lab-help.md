@@ -64,7 +64,7 @@ Here you can upload or provide a link to any other supporting documents to go al
 
 ###  Videos
 
-Here you can upload a file (.mp4) or provide an embed link to any videos that you want to be available on the demo lab page showcasing the functionality of your demo lab.
+Here you can upload a **file** (.mp4) or provide an **embed link** to any videos that you want to be available on the demo lab page showcasing the functionality of your demo lab.
 
 ![videos gif](https://github.com/qloudable/qloudable-help/blob/master/images/demo-lab-videos.gif)
 
