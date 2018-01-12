@@ -2,6 +2,7 @@
 These instructions and tips are here to help you create your Stack. At any time in the process, you can click the **Save As Draft** button to save your progress and come back to it later.
 
 On each screen while creating your Stack, you will see these three buttons or links:
+
 ![publish button](https://github.com/qloudable/qloudable-help/blob/master/images/stacks_publish_button2.PNG)![Save as draft button](https://github.com/qloudable/qloudable-help/blob/master/images/stacks_saveasdraft_button2.PNG)![view help link](https://github.com/qloudable/qloudable-help/blob/master/images/stacks_viewhelp_button2.PNG)
 
 Click **View Help** to acces this help text. Click **Save as Draft** anytime to save this Stack as a draft and exit. Once you have completed all of the required fields and sections successfully, you will be able to click to **Publish** button to submit your Stack for publishing. 
