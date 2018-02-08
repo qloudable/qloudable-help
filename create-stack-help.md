@@ -58,7 +58,9 @@ Upload document files or paste web URLs to additional documentation like datashe
 **Note:** Uploaded document files must be .PDF format.
 
 ### Videos
-Upload video files or paste a URL to a video hosted on the web (e.g. YouTube) to add a video to the Stack solution page. Some recommendations for videos include: product demos, webinars, deployment tutorials, and other videos relevant to this Stack solution.
+Upload video files or paste an embed URL to a video hosted on the web (e.g. YouTube) to add a video to the Stack solution page. Some recommendations for videos include: product demos, webinars, deployment tutorials, and other videos relevant to this Stack solution.
+
+To get an embed URL, go to your video hosted on the web and select the option to "Share" or "Embed." Then, copy the URL from the embed code. (Example: "https://www.youtube.com/embed/Ngva0OUP_UU")
 
 ### Stack Components
 Add a list of the components included in this Stack solution deployment. Each line break (i.e. hit "Enter") in the text box shows as a bullet list item on the Stack landing page. We recommend adding a list of all the core components in the Stack deployment, such as virtual machines, load balancers, databases, etc.
