@@ -22,7 +22,7 @@ This shows the current version fo the solution template associated with this Sta
 ## Deployment Variables
 In this section, the input variables from the Stack solution template will be displayed for users to review, and edit if necessary/desired.
 
-Variables will be displayes in a list, with the name/title of the variable on the left, and the value of that variable on the right. If desired, you can edit the values of these variables to be whiatever you prefer by clicking the right-side text box and editing the text.
+Variables will be displayed in a list, with the name/title of the variable on the left, and the value of that variable on the right. If desired, you can edit the values of these variables to be whiatever you prefer by clicking the right-side text box and editing the text.
 
 ## Link Cloud Account
 This section is where you users will select an existing cloud account to deploy this Stack solution in, or create/add a new cloud account to do so.
