@@ -3,15 +3,40 @@ These instructions and tips are here to help you create your Training Lab. At an
 
 Click **View Help** to acces this help text. Click **Save as Draft & Exit** anytime to save this lab as a draft and exit. Once you have completed all of the required fields and sections successfully, you will be able to click the **Publish** button in the last tab to submit your lab for publishing. 
 
+Along the top of the editor, you will see four tabs: **Lab Manual**, **Lab Detail**, **Settings**, and **Review and Publish**. These sections need to be completed to publish the lab. Keep reading to get help on how to complete each of these sections.
+
 For further assistance, send an email to tl-support@qloudable.com.
 
 ## Lab Manual
-In this section, you will provide the basic information about your Stack deployment offer. For example, you can give it a title, add logos and screenshots, upload an architecture diagram, and list the components.
+In this section, you will add the content for the training lab user manual: the instructions customers follow along with to complete the lab. This content is displayed along the left side of the lab console window, in a scrolling content pane.
 
+### Sections
+This column is where you can add, remove, and edit the lab manual sections. These are like "pages" or "chapters" for the training lab manual. Each section should cover a specific set of related tasks. For example, the first section can be for logging in to a virtual machine, the second section can be for installing Python on that machine, and so on.
 
+The first section is always set to "Welcome" by default; this section serves as the title card for the lab once it has launched. Add introduction content here. An additional blank section is pre-created, titled "Content."
+
+Click on the **name** of a section to navigate between sections, and open them in the editor.
+
+Click the **plus (+) icon** in the "Sections" header to add a new blank section or web hook to the list.
+
+Click and hold the **arrows icon** next to the section title to re-position the section in the list by dragging it.
+
+Click the **three vertical dots** next to a section's title to view the "Duplicate" and "Delete" options. Click "Duplicate" to create a copy of this section. Click "Delete" to permanently remove this section.
+
+### Section Details
+This column is where you can edit the 
+
+#### Section Name
+
+#### Section Description
+
+#### Add Project
+
+### Content Builder
 
 ## Lab Detail
-In this section, you will add and configure advanced details about your Stack solution. Keep in mind that the settings here can affect how your Stack deploys and what your users will experience.
+In this section, you will provide the basic information about your Stack deployment offer. For example, you can give it a title, add logos and screenshots, upload an architecture diagram, and list the components.
+
 
 ### Training Lab Name
 Enter a title for this Stack solution. Titles are often based on the name of the product, verison, and/or intended use case.
@@ -66,7 +91,7 @@ Upload video files or paste an embed URL to a video hosted on the web (e.g. YouT
 To get an embed URL, go to your video hosted on the web and select the option to "Share" or "Embed." Then, copy the URL from the embed code. (Example: "https://www.youtube.com/embed/Ngva0OUP_UU")
 
 ## Settings
-In this section, you can select a project to manage this Stack solution template.
+In this section, you will add and configure advanced details about your Stack solution. Keep in mind that the settings here can affect how your Stack deploys and what your users will experience.
 
 **Note:** Projects help manage and maintain Stacks, which are deployed and built using [Terraform](https://www.terraform.io/intro/index.html) templates. To learn more about what Terraform templates are and how they work, please [visit this web page](https://www.terraform.io/intro/index.html). For examples of Terraform templates designed for Stack deployments, please contact Qloudable support.
 
